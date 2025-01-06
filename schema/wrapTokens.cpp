@@ -19,6 +19,7 @@ void wrapG4Tokens()
         cls("Tokens", pxr_boost::python::no_init);
     _ADD_TOKEN(cls, angle_unit);
     _ADD_TOKEN(cls, daughters);
+    _ADD_TOKEN(cls, dPhi);
     _ADD_TOKEN(cls, fieldprim);
     _ADD_TOKEN(cls, g4type);
     _ADD_TOKEN(cls, length_unit);
@@ -26,8 +27,8 @@ void wrapG4Tokens()
     _ADD_TOKEN(cls, logicalprim);
     _ADD_TOKEN(cls, materialprim);
     _ADD_TOKEN(cls, name);
-    _ADD_TOKEN(cls, r1);
-    _ADD_TOKEN(cls, r2);
+    _ADD_TOKEN(cls, rMax);
+    _ADD_TOKEN(cls, rMin);
     _ADD_TOKEN(cls, rotation);
     _ADD_TOKEN(cls, sensitiveprim);
     _ADD_TOKEN(cls, solid1prim);
@@ -35,6 +36,7 @@ void wrapG4Tokens()
     _ADD_TOKEN(cls, solid3prim);
     _ADD_TOKEN(cls, solidprim);
     _ADD_TOKEN(cls, solidprims);
+    _ADD_TOKEN(cls, sPhi);
     _ADD_TOKEN(cls, translation);
     _ADD_TOKEN(cls, x);
     _ADD_TOKEN(cls, y);
@@ -45,7 +47,7 @@ void wrapG4Tokens()
     _ADD_TOKEN(cls, Intersection);
     _ADD_TOKEN(cls, Logical);
     _ADD_TOKEN(cls, MultiUnion);
-    _ADD_TOKEN(cls, Physical);
+    _ADD_TOKEN(cls, Placement);
     _ADD_TOKEN(cls, Subtraction);
     _ADD_TOKEN(cls, Tubs);
     _ADD_TOKEN(cls, Union);
