@@ -28,7 +28,11 @@ void wrapG4Tokens()
     _ADD_TOKEN(cls, materialprim);
     _ADD_TOKEN(cls, name);
     _ADD_TOKEN(cls, rMax);
+    _ADD_TOKEN(cls, rMax1);
+    _ADD_TOKEN(cls, rMax2);
     _ADD_TOKEN(cls, rMin);
+    _ADD_TOKEN(cls, rMin1);
+    _ADD_TOKEN(cls, rMin2);
     _ADD_TOKEN(cls, rotation);
     _ADD_TOKEN(cls, sensitiveprim);
     _ADD_TOKEN(cls, solid1prim);
@@ -43,6 +47,7 @@ void wrapG4Tokens()
     _ADD_TOKEN(cls, z);
     _ADD_TOKEN(cls, BooleanSolid);
     _ADD_TOKEN(cls, Box);
+    _ADD_TOKEN(cls, Cons);
     _ADD_TOKEN(cls, DisplacedSolid);
     _ADD_TOKEN(cls, Intersection);
     _ADD_TOKEN(cls, Logical);
