@@ -52,6 +52,7 @@ void wrapG4Tokens()
     _ADD_TOKEN(cls, Intersection);
     _ADD_TOKEN(cls, Logical);
     _ADD_TOKEN(cls, MultiUnion);
+    _ADD_TOKEN(cls, Orb);
     _ADD_TOKEN(cls, Placement);
     _ADD_TOKEN(cls, Subtraction);
     _ADD_TOKEN(cls, Tubs);
